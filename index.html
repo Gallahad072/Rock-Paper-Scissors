@@ -1,11 +1,16 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Come Play!">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
     </head>
-    <body>
+    <body style="background-color: papayawhip;">
         <header>
-            <h1>Rock Paper Scissors</h1>
+            <h1 style="color: orangered;">Rock Paper Scissors</h1>
+            <a href="https://github.com/Gallahad072" target="_blank">check me out</a>
+            <nav></nav>
         </header>
         <div class="scoreboard">
             <div class="badge" id="user_label">User</div>
@@ -16,15 +21,16 @@
             <p>Paper Covers Rock. You win!</p>
         </div>
         <div class="choices">
-            <div class="choice">
+            <div class="choice" id="r">
                 <img src="images/rock.png" alt="">
             </div>
-            <div class="choice">
+            <div class="choice" id="p">
                 <img src="images/paper.png" alt="">
             </div>
-            <div class="choice">
+            <div class="choice" id="s">
                 <img src="images/scissors.png" alt="">
             </div>
         </div>
+        <p id="action_message">Make Your Move!</p>
     </body>
 </html>
