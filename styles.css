@@ -55,6 +55,7 @@ footer {
 }
 
 .output {
+    margin: 100px;
     color: black;
     font-size: x-large;
     text-align: center;
@@ -108,14 +109,14 @@ img {
     text-align: center;
     color: orangered;
     text-shadow: 1px 1px 10px red;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
 .grey_glow {
     text-align: center;
     color: black;
     text-shadow: 1px 1px 10px darkgray;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
 /* navigation bar */
