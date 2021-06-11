@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\galla\\Google Drive\\code\\rock_ps\\index.html"
+            "name": "Open game.html",
+            "file": "c:\\Users\\galla\\Google Drive\\code\\rock_ps\\game.html"
         }
     ]
 }
