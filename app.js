@@ -4,23 +4,14 @@ const user_score_span = document.getElementById('user_score')
 const machine_score_span = document.getElementById('machine_score')
 const scoreboard_div = document.querySelector('.scoreboard')
 const result_div = document.querySelector('.result')
-result_div.innerHTML = "Make Your Move"
 const rock_div = document.getElementById('r')
 const paper_div = document.getElementById('p')
 const scissors_div = document.getElementById('s')
 
 function main(){
-    rock_div.addEventListener('click', function() {
-        game('r')
-    })
-
-    paper_div.addEventListener('click', function() {
-        game('p')
-    })
-
-    scissors_div.addEventListener('click', function() {
-        game('s')
-    })
+    rock_div.addEventListener('click', ()=>game('r'))
+    paper_div.addEventListener('click', ()=>game('p'))
+    scissors_div.addEventListener('click', ()=>game('s'))
 }
 
 function machine_choice(){
@@ -49,6 +40,8 @@ function win(user, machine){
     user_score++
     user_score_span.innerHTML = user_score
     result_div.innerHTML = start+end
+    result_div.classList.add('green_glow')
+    setTimeout(()=>result_div.classList.remove('green_glow'), 400)
 }
 
 function lose(user, machine){
@@ -57,10 +50,14 @@ function lose(user, machine){
     machine_score++
     machine_score_span.innerHTML = machine_score
     result_div.innerHTML = start+end
+    result_div.classList.add('red_glow')
+    setTimeout(()=>result_div.classList.remove('red_glow'), 400)
 }
 
 function tie(){
     result_div.innerHTML = "It's a Tie!"
+    result_div.classList.add('grey_glow')
+    setTimeout(()=>result_div.classList.remove('grey_glow'), 400)
 }
 
 function game(user){

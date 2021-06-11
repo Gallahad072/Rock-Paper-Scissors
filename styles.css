@@ -13,7 +13,6 @@ header {
 }
 
 body {
-    color: whitesmoke;
     background-color: rgb(40, 40, 40);
 }
 
@@ -28,6 +27,7 @@ footer {
 }
 
 .scoreboard {
+    color: whitesmoke;
     margin: 20px auto;
     border: 3px solid powderblue;
     width: 200px;
@@ -62,8 +62,10 @@ footer {
 }
 
 .result {
+    color: whitesmoke;
     font-size: x-large;
     text-align: center;
+    transition-duration: 0.4s;
 }
 
 .choices {
@@ -93,4 +95,25 @@ footer {
 img {
     height: 20%;
     width: auto;
+}
+
+.green_glow {
+    text-align: center;
+    color: greenyellow;
+    text-shadow:1px 1px 10px green;
+    transition-duration: 0.4s;
+}
+
+.red_glow {
+    text-align: center;
+    color: orangered;
+    text-shadow: 1px 1px 10px red;
+    transition-duration: 0.3s;
+}
+
+.grey_glow {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px grey;
+    transition-duration: 0.3s;
 }
