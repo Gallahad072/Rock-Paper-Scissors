@@ -75,6 +75,7 @@ footer {
 }
 
 .choice:hover {
+    transform: rotate(-15deg);
     cursor: pointer;
     transition-duration: 0.4s;
     opacity: 1;
@@ -82,7 +83,7 @@ footer {
 }
 
 .choice:active {
-    transform: rotate(-45deg);
+    transform: rotate(15deg);
     transition-duration: 0.1s;
 }
 
