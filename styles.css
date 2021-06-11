@@ -94,10 +94,3 @@ img {
     height: 20%;
     width: auto;
 }
-
-#action_message {
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    margin: 20px;
-}
