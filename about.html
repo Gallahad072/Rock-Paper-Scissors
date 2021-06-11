@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Come Play!">
+        <meta name="author" content="Rhys Alexander">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+        <title>Rock Paper Scissors</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-center">
+                <div class="nav-header">
+                    <h1>Rock Paper Scissors</h1>
+                    <button class="nav-toggle">//</button>
+                </div>
+                <ul class="links">
+                    <li>
+                        <a href="game.html">Game</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="title">
+                <h2>About</h2>
+                <p>Here's some Info on how to play!</p>
+            </div>
+            <div class="about-center section-center">
+                <article class="about">
+                    <div class="buttons">
+                        <button class="tab-btn active" data-id="htp">How To Play</button>
+                        <button class="tab-btn" data-id="credits">Credits</button>
+                    </div>
+                    <div class="about-content">
+                        <div class="content active" id="htp">
+                        <p>
+                            Each person (you and the computer) simultaneously makes one of three hand gestures
+                            representing a rock, a sheet of paper, and a pair of scissors respectively. 
+                            Each gesture defeats one and is defeated by one of the other two: 
+                            rock defeats scissors but is defeated by paper; 
+                            paper defeats rock but is defeated by scissors. 
+                            The person whose gesture defeats the other is selected
+                        </p>
+                        </div>
+                        <div class="content" id="credits">
+                        <p>
+                            I'd like to thank <a href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-njtc5xy3qli4cN2zlKsoxd" target="_blank">Tech With Tim</a>,
+                            <a href="https://youtu.be/PkZNo7MFNFg" target="_blank">FreeCodeCamp.org</a>,
+                            <a href="https://youtu.be/jaVNP3nIAv0" target="_blank">Whatsdev</a>,
+                            <a href="https://youtu.be/pQN-pnXPaVg" target="_blank">Giraffe Academy</a>, 
+                            and <a href="https://youtu.be/3PHXvlpOkf4" target="_blank">John Smigla</a>
+                            for the incredible free resources they put together which have helped millions learn to code and build websites!
+                        </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="about-img">
+                    <img src="images/about.png" alt="about image not found">
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Developed by <a href="https://github.com/Gallahad072" target="_blank">Gallahad072</a>
+            </p>
+        </footer>
+
+        <script src="about.js"></script>
+    </body>
+</html>

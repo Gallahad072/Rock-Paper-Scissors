@@ -16,7 +16,7 @@ footer {
     color: rgb(40, 40, 40);
     padding: 8px;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(40, 40, 40), rgba(176, 224, 230, 0.664));
+    background-image: linear-gradient(to bottom, rgb(40, 40, 40), powderblue);
 }
 
 .scoreboard {
@@ -112,6 +112,7 @@ img {
     transition-duration: 0.3s;
 }
 
+/* navigation bar */
 ul {
     list-style-type: none;
 }
@@ -185,4 +186,79 @@ nav {
     .links a:hover {
         padding: 0;
     }
+}
+
+/* about */
+.title p, h2{
+    margin: 30px auto;
+    color: whitesmoke;
+}
+section{
+    text-align: center;
+}
+section h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+.about {
+    background: powderblue;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.about-img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.about-img img {
+    object-fit: cover;
+    height: 20rem;
+}
+.buttons {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tab-btn:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+.tab-btn:nth-child(2) {
+    border-top-right-radius: 5px;
+}
+.tab-btn {
+    color: rgb(40, 40, 40);
+    padding: 1rem 0;
+    border: none;
+    font-size: 1rem;
+    display: block;
+    background: lightgray;;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tab-btn:hover:not(.active) {
+    background: rgb(228, 228, 228);
+}
+.about-content {
+    color: rgb(40, 40, 40);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1rem;
+}
+/* hide content */
+.content {
+    display: none;
+}
+.tab-btn.active {
+    background-color: powderblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.content.active {
+    display: block;
 }
