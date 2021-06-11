@@ -54,11 +54,17 @@ footer {
     right: -40px;
 }
 
-.result {
-    margin-bottom: 50px;
-    color: whitesmoke;
+.output {
+    color: black;
     font-size: x-large;
     text-align: center;
+}
+.result{
+    border-style: solid;
+    border-color: black;
+    background-color: powderblue;
+    padding: 20px;
+    border-radius: 5px;
     transition-duration: 0.4s;
 }
 
@@ -79,7 +85,6 @@ footer {
     cursor: pointer;
     transition-duration: 0.4s;
     opacity: 1;
-    transform: rotate(deg);
 }
 
 .choice:active {
@@ -108,8 +113,8 @@ img {
 
 .grey_glow {
     text-align: center;
-    color: whitesmoke;
-    text-shadow: 1px 1px 10px grey;
+    color: black;
+    text-shadow: 1px 1px 10px darkgray;
     transition-duration: 0.3s;
 }
 
