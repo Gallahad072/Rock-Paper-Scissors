@@ -138,9 +138,6 @@ nav {
     transition: 0.3s;
     cursor: pointer;
 }
-.nav-toggle:hover {
-    transform: rotate(90deg);
-}
 .links a {
     font-size: 1rem;
     text-transform: capitalize;
@@ -160,6 +157,10 @@ nav {
 }
 .show-links {
     height: 5rem;
+}
+.turn-toggle{
+    transform: rotate(45deg);
+    transition: 0.3s;
 }
 @media screen and (min-width: 700px) {
     .nav-center {
