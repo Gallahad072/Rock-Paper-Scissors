@@ -8,26 +8,23 @@
 body {
     background-color: black;
 }
-
-footer {
+footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    color: black;
+    color: gray;
     padding: 8px;
     text-align: center;
-    background-image: linear-gradient(to bottom, black, rgba(176, 224, 230, 0.158));
 }
-
-footer a{
-    color: black;
+footer a {
+    color: gray;
 }
 
 .scoreboard {
-    color: powderblue;
+    color: white;
     margin: 30px auto;
     margin-top: 50px;
-    border: 3px solid rgb(40, 40, 40);
+    border: 3px solid gray;
     width: 200px;
     border-radius: 6px;
     text-align: center;
@@ -37,8 +34,8 @@ footer a{
 }
 
 .badge {
-    background: rgb(40, 40, 40);
-    color: powderblue;
+    background: gray;
+    color: black;
     font-size: small;
     padding: 2px 10px;
 }
@@ -60,7 +57,7 @@ footer a{
 }
 
 .result{
-    color: powderblue;
+    color: white;
     font-size: x-large;
     text-align: center;
     transition-duration: 0.4s;
@@ -121,10 +118,10 @@ ul {
     list-style-type: none;
 }
 a {
-    color: powderblue;
+    color: white;
 }
 nav {
-    color: powderblue;
+    color: white;
     padding: 10px;
 }
 .nav-header {
@@ -134,7 +131,7 @@ nav {
     padding: 1rem;
 }
 .nav-toggle {
-    color: powderblue;
+    color: white;
     font-size: 1.5rem;
     background: transparent;
     border-color: transparent;
@@ -193,16 +190,13 @@ nav {
 }
 
 /* about */
-.title p, h2{
-    margin: 30px auto;
-    color: powderblue;
+.title h2{
+    font-size: 2.5rem;
+    margin: 60px auto;
+    color: white;
 }
 section{
     text-align: center;
-}
-section h2 {
-    font-size: 2.5rem;
-    margin-top: 20px;
 }
 .section-center {
     width: 90vw;
@@ -228,20 +222,21 @@ section h2 {
     border-top-right-radius: 5px;
 }
 .tab-btn {
-    color: rgb(10, 10, 10);
+    color: gray;
     padding: 1rem 0;
     border: none;
     font-size: 1rem;
     display: block;
-    background: rgb(40, 40, 40);
+    background: transparent;
     transition: 0.3s;
 }
 .tab-btn:hover:not(.active) {
     cursor: pointer;
-    background: rgb(63, 63, 63);
+    color: lightgray;
+    text-shadow: 1px 1px 10px white;
 }
 .about-content {
-    color: powderblue;
+    color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 1rem;
@@ -251,7 +246,7 @@ section h2 {
     display: none;
 }
 .tab-btn.active {
-    color: powderblue;
+    color: white;
     background-color: rgb(10, 10, 10);
 }
 .content.active {
